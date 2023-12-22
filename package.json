@@ -1,0 +1,37 @@
+{
+  "name": "mygram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --runInBand --detectOpenHandles --forceExit",
+    "db:create:test": "npx sequelize db:create",
+    "db:migrate:test": "npx sequelize db:migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^6.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelompok-9-MSIB-05/Final-Project-2-MyGram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kelompok-9-MSIB-05/Final-Project-2-MyGram/issues"
+  },
+  "homepage": "https://github.com/Kelompok-9-MSIB-05/Final-Project-2-MyGram#readme",
+  "description": ""
+}
